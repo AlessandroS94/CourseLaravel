@@ -10,4 +10,12 @@ class IndexController extends Controller
     {
         return 'Hello, World!'. $id;
     }
+    public function message2(string $view)
+    {
+        return 'Hello, World!'. $view;
+    }
+
+    public function returnView(){
+        return view("ciao");
+    }
 }

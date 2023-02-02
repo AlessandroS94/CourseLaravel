@@ -24,6 +24,10 @@ Route::get('/ciao', function () {
 
 Route::get('/metodo/{id}',[IndexController::class,'index']);
 
+Route::get('/ciao2',[IndexController::class,'returnView']);
+
+
+
 
 
 
