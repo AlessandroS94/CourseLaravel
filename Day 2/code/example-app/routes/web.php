@@ -26,6 +26,8 @@ Route::get('/metodo/{id}',[IndexController::class,'index']);
 
 Route::get('/ciao2',[IndexController::class,'returnView']);
 
+Route::get('/ciao3',[IndexController::class,'view3']);
+
 
 
 

@@ -18,4 +18,8 @@ class IndexController extends Controller
     public function returnView(){
         return view("ciao");
     }
+
+    public function view3(){
+        return view('ciao2', ['name' => 'Alessandro']);
+    }
 }
