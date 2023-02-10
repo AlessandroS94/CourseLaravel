@@ -20,6 +20,6 @@ class IndexController extends Controller
     }
 
     public function view3(){
-        return view('ciao2', ['name' => 'Alessandro']);
+        return view('ciao2', ['name' => 'Alessandro Sallese']);
     }
 }
